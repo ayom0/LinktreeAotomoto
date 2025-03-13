@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <meta name="description"
+        content="A modular, responsive & minimalist Link in bio theme built with Bootstrap 5. Easy to deploy & easy to edit. Ideal for mobile & social media use." />
+    <link rel="shortcut icon" href="assets/images/icon.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+    <div id="preloader">
+        <div id="status">
+            <div class="spinner">Loading...</div>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg custom-nav">
+        <div class="container" style="max-width: 680px">
+
+            <button class="navbar-toggler ms-auto" type="button" data-bs-target="#navbarNav" aria-controls="navbarNav"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <li class="nav-item form-check form-switch">
+                    <input class="nav-link form-check-input" type="checkbox" onchange="toggle()"
+                        id="flexSwitchCheckDefault">
+                </li>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto" id="main_nav">
+                    <li class="nav-item form-check form-switch">
+                        <input class="nav-link form-check-input" type="checkbox" onchange="toggle()"
+                            id="flexSwitchCheckDefault">
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container" style="max-width: 680px" id="header-section">
+        <div class="col-lg-12">
+            <div class="mt-0">
+                <img class="rounded-circle img-fluid mx-auto d-block" src="assets/images/logo.jpg"
+                    alt="Profile Picture">
+            </div>
+            <div class="header-content text-center mx-auto">
+                <h4 class="custom-text-color-primary header-text mb-2 mt-3">Aotomoto</h4>
+                <p class="custom-text-color-secondary subheader-text mb-2">Aoto Moto with Aoto Booth</p>
+            </div>
+        </div>
+    </div>
+    <div class="container" style="max-width: 680px" id="main-buttons">
+        <div class="mt-3 pt-2">
+            <a href=" https://maps.app.goo.gl/7qTkYzisjTSAiHBWA " style="width: 100%" class="btn btn-round btn-custom">
+                Lokasi Aotomoto <i class="bi bi-geo-alt-fill"></i>
+            </a>
+        </div>
+        <div class="mt-3 pt-2">
+            <a  href="https://wa.me/6289516042702?text=Hi%20Aotomoto,%20saya%20tertarik%20untuk%20Brand%20%26%20Event%20Partnership" style="width: 100%" class="btn btn-round btn-custom">
+                Request Resend Soft Copy <i class="bi bi-whatsapp"></i>
+            </a>
+        </div>
+        <div class="mt-3 pt-2">
+            <a href="https://wa.me/6289516042702?text=Hi%20Aotomoto,%20saya%20tertarik%20untuk%20Brand%20%26%20Event%20Partnership" style="width: 100%" class="btn btn-round btn-custom">
+                Brand & Event Partnership <i class="bi bi-whatsapp"></i>
+            </a>
+        </div>
+        <div class="mt-3 pt-2">
+            <a href="https://wa.me/6289516042702?text=Hi%20Aotomoto,%20saya%20ingin%20mengajukan%20kerja%20sama" style="width: 100%" class="btn btn-round btn-custom">
+                Pengajuan Kerja Sama <i class="bi bi-whatsapp"></i>
+            </a>
+        </div>
+        <div class="mt-3 pt-2">
+            <a href="#" style="width: 100%" class="btn btn-round btn-custom" onclick="alert('Website coming soon!')">
+                Website (Soon) <i class="bi bi-globe"></i>
+            </a>
+        </div>
+    </div>
+    <div class="container" id="footer">
+        <div class="col-md-12">
+            <div class="mb-4 text-center">
+                <div>
+                    <ul class="about-social list-inline mt-5 text-center">
+                        <li class="list-inline-item">
+                            <a href="https://www.instagram.com/aotomotophotobooth?igsh=MThwbWxyZG1qaWFtYQ==" target="_blank">
+                                <i class="bi bi-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    
+                </div>
+                <p class="custom-text-color-secondary footer-text mb-5 mt-3">©2025 - aotomotophotobooth</p>
+            </div>
+        </div>
+    </div>
+    <a href="#home" class="back_top" style="border-radius: 50%;"><i class="bi bi-chevron-up"></i></a>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/contact.js"></script>
+    <script src="assets/js/typed.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <link id="style1" rel="stylesheet" type="text/css" href="assets/css/colors/light-mode.css" />
+    <link id="style2" rel="stylesheet" type="text/css" href="assets/css/colors/dark-mode.css" disabled="disabled" />
+    <script type="text/javascript">
+        function toggle() {
+            var el = document.getElementById("style1");
+            if (el.href.match("assets/css/colors/light-mode.css")) {
+                el.href = "assets/css/colors/dark-mode.css";
+            }
+            else {
+                el.href = "assets/css/colors/light-mode.css";
+            }
+        }
+    </script>
+</body>
+
+</html>
